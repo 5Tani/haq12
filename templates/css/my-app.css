@@ -3,6 +3,10 @@ font-family: 'arabicFont';
 src:url('PDMS_Saleem_QuranFont-signed.ttf');
 }
 
+@font-face {
+font-family: 'JameelNoori';
+src:url('Jameel_Noori_Nastaleeq.ttf');
+}
 
 .Qcaption {font-size:15px;font-weight:bold;padding-top:14px;padding-bottom:7px;font-family: arabicFont}
 .Qrow {}
