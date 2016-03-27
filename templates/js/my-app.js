@@ -34,19 +34,19 @@ myApp.onPageInit('index', function (page) {
         myApp.showIndicator();
             $.ajax({
             type: "GET",
-            url: "templates/quran-simple.xml",
+            url: "./quran-simple.xml",
             dataType: "xml",
             success: function(xml) {
                     quranXML = xml;
                     $.ajax({
                         type: "GET",
-                        url: "templates/quran-data.xml",
+                        url: "./quran-data.xml",
                         dataType: "xml",
                         success: function(xml) {
                                 quranData = xml;
                                 $.ajax({
                                     type: "GET",
-                                    url: "templates/ur.jalandhry.xml",
+                                    url: "./ur.jalandhry.xml",
                                     dataType: "xml",
                                     success: function(xmlUr) {
                                             quranXML_urdu = xmlUr;

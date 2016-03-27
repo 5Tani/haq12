@@ -36,10 +36,11 @@ th, td {
 
 .bismillah
 {
-    background-image: url('../img/bismillah.jpg');
+    /*background-image: url('../img/bismillah.jpg');*/
     background-repeat: no-repeat;
     background-size: cover;
-    color: black;
+    color: #EFE561;
+    background: #55654D;
 }
 
 .ayahSymbol
