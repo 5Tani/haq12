@@ -2,7 +2,7 @@
 <html>
     
 <head>
-        <title>SmartHCM App</title>
+        <title>Quran Urdu</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
