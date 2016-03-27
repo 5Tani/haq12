@@ -1,0 +1,169 @@
+body {
+    background: url("../img/theme1-bg.png") no-repeat center -30px / 110% #000000;
+    background-attachment: fixed;
+    color: #f0f0f0;
+    padding-top: 25px;
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #FFFBF5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#iphone {
+    position: relative;
+    background: url("../img/iphone_black.png") no-repeat scroll 0px 0px / contain transparent;
+    width: 372px;
+    height: 760px;
+    margin: 0px auto;
+    z-index: 100;
+}
+
+.iphone-content {
+    background: none repeat scroll 0% 0% #000;
+    height: 571px;
+    left: 26px;
+    position: absolute;
+    top: 92px;
+    width: 320px;
+    z-index: 15;
+}
+
+.qrcode {
+    background: none repeat scroll 0 0 #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 1px 10px -5px rgba(0, 0, 0, 0.25);
+    left: -175px;
+    line-height: 1;
+    padding: 10px;
+    position: absolute;
+    top: 30px;
+    width: 150px;
+}
+
+.check-on-phone {
+    left: -348px;
+    position: absolute;
+    top: 25px;
+    transform: rotate(39deg);
+}
+
+.change-bg {
+    position: absolute;
+    top: 230px;
+    left: -370px;
+    width: 350px;
+    color: #f0f0f0;
+}
+
+.change-bg ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.change-bg ul li {
+    float: left;
+}
+
+.change-bg ul li a img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ffffff;
+    margin: 5px;
+}
+
+.change-bg ul li a span {
+    background: #fff none repeat scroll 0 0;
+    color: #333;
+    display: block;
+    font-size: 11px;
+    line-height: 16px;
+    margin: -10px 5px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.change-bg ul li a.active img {
+    border-color: #333333;
+}
+
+.change-bg ul li a.active span {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+.site-text {
+    position: absolute;
+    top: 0px;
+    right: -420px;
+    width: 400px;
+    color: #333333;
+}
+
+.site-text .text {
+    background: rgba(0, 0, 0, 0.2);
+    color: #f0f0f0;
+    padding: 5px 15px 10px 15px;
+    border-radius: 4px;
+}
+
+.button {
+    background: none repeat scroll 0 0 #333;
+    border-radius: 4px;
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    padding: 12px 0 10px;
+    transition: background 400ms;
+}
+
+.button:hover {
+    text-decoration: none;
+    background: #666;
+}
+
+.button > span {
+    display: block;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.button > small {
+    display: block;
+}
+
+.button-blue {
+    background: none repeat scroll 0 0 #38B8DB;
+    box-shadow: 0 3px 0 #0092BA;
+}
+
+.button-blue:hover {
+    background: #0092BA;
+}
+
+.logo {
+    text-align: center;
+}
