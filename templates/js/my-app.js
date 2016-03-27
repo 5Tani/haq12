@@ -137,7 +137,7 @@ function open_translation_popover(obj,text)
     var clickedLink = obj;
     var popoverHTML = '<div class="popover" style="width:90%">'+
                       '<div class="popover-inner">'+
-                        '<div class="content-block" style="direction:rtl; font-family:JameelNoori; font-size: 20px;">'+
+                        '<div class="content-block" style="direction:rtl; font-family:JameelNoori,arabicFont; font-size: 20px;">'+
                           '<p>'+text+'</p>'+
                         '</div>'+
                       '</div>'+
