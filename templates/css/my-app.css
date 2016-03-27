@@ -1,0 +1,55 @@
+@font-face {
+font-family: 'arabicFont';
+src:url('PDMS_Saleem_QuranFont-signed.ttf');
+}
+
+
+.Qcaption {font-size:15px;font-weight:bold;padding-top:14px;padding-bottom:7px;font-family: arabicFont}
+.Qrow {}
+.Qayah 
+{
+    font-size:25px;font-family: arabicFont;
+    /*background-image: url('../img/back-design.jpg');    */
+}
+.Qtext {font-family: arabicFont}
+
+.ayah
+{
+    background: #666633;    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.surahname
+{
+    background-image: url('../img/back-design.jpg');
+}
+
+.bismillah
+{
+    background-image: url('../img/bismillah.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.ayahSymbol
+{
+    background-image: url('../img/ayat.png');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    text-align:center;
+    width: 35px;
+    font-size:15px;
+    font-weight: bold;
+}
